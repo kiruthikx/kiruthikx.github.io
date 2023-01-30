@@ -21,6 +21,7 @@ button {
 #float{
   position: absolute;
   right: 0;
+  width: 10vw;
   margin-right: 10px;
   z-index: 0;
   margin-top: 500px;
