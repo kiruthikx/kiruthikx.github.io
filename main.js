@@ -10,7 +10,7 @@ const h1 = document.getElementById("h1"),
 // listen for scroll event
 window.addEventListener("scroll", function () {
   // calculate the new top position
-  var newTop = window.pageYOffset / 2;
+  var newTop = window.pageYOffset / 1.8;
   
   // set the new top position
   floatImg.style.top = newTop + "px";
