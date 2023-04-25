@@ -6,8 +6,12 @@
   font-family: vrf;
   src: url(Linebeam.ttf);
 }
+*{
+  box-sizing: border-box;
+}
 body{
     margin: 0;
+  word-wrap: break-word;
 }
 .title{
     font-size: 7rem;
