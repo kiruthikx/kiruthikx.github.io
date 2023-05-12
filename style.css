@@ -109,13 +109,19 @@ body{
   color: #ffffff;
   padding: 30px 5%;
   font-family: mrs;
-
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
   /* box-shadow: 0 0 5px #fff; */
 }
 
 .pinu{
   height: 100dvh;
-  width: auto;
+  width: 100%;
+  scroll-snap-align: start;
   overflow: hidden;
   align-items: center;
   justify-content: center;
