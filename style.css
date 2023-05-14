@@ -1,11 +1,11 @@
 @font-face {
   font-family: mrs;
-  src: url(Gantari-Regular.ttf);
+  src: url(font.otf);
 }
 
 @font-face {
   font-family: vrf;
-  src: url(Linebeam.ttf);
+  src: url(Gantari-Regular.ttf);
 }
 
 * {
@@ -15,6 +15,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family:mrs;
   /* background: #000000; */
 }
 
